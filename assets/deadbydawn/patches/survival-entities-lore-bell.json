@@ -1,0 +1,69 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "sunburn",
+      "startHour": 5,
+      "endHour": 6
+    },
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxLightLevel",
+    "value": 7,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/lightLevelType",
+    "value": "OnlyBlockLight",
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.03,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxQuantity",
+    "value": 20,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/groupSize/avg",
+    "value": 3,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/groupSize/var",
+    "value": 2,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/minPlayerDistance",
+    "value": 30,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/minSeconds",
+    "value": 60,
+    "file": "game:entities/lore/bell.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "sunburn",
+      "startHour": 5,
+      "endHour": 6
+    },
+    "file": "game:entities/lore/locust.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditionsByType/*-corrupt-sawblade/runtime/maxLightLevel",
+    "value": 7,
+    "file": "game:entities/lore/locust.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditionsByType/*-corrupt-sawblade/runtime/lightLevelType",
+    "value": "OnlyBlockLight",
+    "file": "game:entities/lore/locust.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditionsByType/*-corrupt-sawblade/runtime/chance",
+    "value": 0.025,
+    "file": "game:entities/lore/locust.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditionsByType/*-corrupt-sawblade/runtime/maxQuantity",
+    "value": 20,
+    "file": "game:entities/lore/locust.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditionsByType/*-corrupt-sawblade/runtime/groupSize/avg",
+    "value": 4,
+    "file": "game:entities/lore/locust.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditionsByType/*-corrupt-sawblade/runtime/groupSize/var",
+    "value": 3,
+    "file": "game:entities/lore/locust.json",
+    "side": "Server"
+  }
+]

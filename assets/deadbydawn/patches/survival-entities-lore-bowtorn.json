@@ -1,0 +1,111 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "sunburn",
+      "startHour": 5,
+      "endHour": 6
+    },
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/spawnCloserDuringLowStability",
+    "value": false,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxLightLevel",
+    "value": 7,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/lightLevelType",
+    "value": "OnlyBlockLight",
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.75,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxQuantityByType/*-surface",
+    "value": 30,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/groupSizeByType/*-surface/avg",
+    "value": 6,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/groupSizeByType/*-surface/var",
+    "value": 5,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/minPlayerDistance",
+    "value": 32,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/minSeconds",
+    "value": 30,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/minPlayerDistance",
+    "value": 64,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/minSeconds",
+    "value": 6,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/4/searchRange",
+    "value": 64,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/4/minDayLightByType/*-surface",
+    "value": 0.05,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/4/executionChance",
+    "value": 1.0,
+    "file": "game:entities/lore/bowtorn.json",
+    "side": "Server"
+  }
+]

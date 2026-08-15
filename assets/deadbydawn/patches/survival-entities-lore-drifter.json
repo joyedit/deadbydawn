@@ -1,0 +1,90 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "sunburn",
+      "startHour": 5,
+      "endHour": 6
+    },
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/spawnCloserDuringLowStability",
+    "value": false,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxLightLevel",
+    "value": 7,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/lightLevelType",
+    "value": "OnlyBlockLight",
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.75,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxQuantityByType/*-normal",
+    "value": 120,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/groupSizeByType/*-normal/avg",
+    "value": 8,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/groupSizeByType/*-normal/var",
+    "value": 6,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/minPlayerDistance",
+    "value": 32,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/minSeconds",
+    "value": 30,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/minPlayerDistance",
+    "value": 64,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/minSeconds",
+    "value": 6,
+    "file": "game:entities/lore/drifter.json",
+    "side": "Server"
+  }
+]

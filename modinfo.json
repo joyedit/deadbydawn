@@ -1,0 +1,18 @@
+{
+  "Type": "Code",
+  "TextureSize": 32,
+  "Name": "Dead by Dawn",
+  "Version": "1.1.0",
+  "NetworkVersion": null,
+  "Description": "Days are safe and peaceful - no monsters spawn in daylight. But when night falls, monsters come out in droves. Light is your only salvation. Updated for 1.22.*",
+  "Website": "",
+  "ModID": "deadbydawn",
+  "Authors": [
+    "Feyd"
+  ],
+  "Contributors": [],
+  "Side": "Server",
+  "RequiredOnClient": false,
+  "RequiredOnServer": true,
+  "Dependencies": {}
+}
